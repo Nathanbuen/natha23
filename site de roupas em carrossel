@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .slider {
+            margin: 0 auto;
+            width: 80%;
+        }
+        .slider img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+    </header>
+    <nav>
+        <a href="#camisas">Camisetas</a>
+        <a href="#calcas">Calças</a>
+        <a href="#bermudas">Bermudas</a>
+        <a href="#tenis">Tênis</a>
+        <a href="#sapatos">Sapatos</a>
+    </nav>
+    <div class="container">
+        <section id="camisas">
+            <h2>Camisetas</h2>
+            <div class="slider">
+                <div><img src="https://www.gstatic.com/webp/gallery/1.jpg" alt="Camiseta 1"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Camiseta 2"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/3.jpg" alt="Camiseta 3"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/4.jpg" alt="Camiseta 4"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/5.jpg" alt="Camiseta 5"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: true,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        });
+    </script>
+</body>
+</html>
