@@ -72,22 +72,46 @@
                 <div><img src="https://www.gstatic.com/webp/gallery/5.jpg" alt="Camiseta 5"></div>
             </div>
         </section>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.slider').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true,
-                autoplay: true,
-                autoplaySpeed: 2000
-            });
-        });
-    </script>
-</body>
-</html>
+        <section id="calcas">
+            <h2>Calças</h2>
+            <div class="slider">
+                <div><img src="https://www.gstatic.com/webp/gallery/6.jpg" alt="Calça 1"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/7.jpg" alt="Calça 2"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/8.jpg" alt="Calça 3"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/9.jpg" alt="Calça 4"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/10.jpg" alt="Calça 5"></div>
+            </div>
+        </section>
+
+        <section id="bermudas">
+            <h2>Bermudas</h2>
+            <div class="slider">
+                <div><img src="https://www.gstatic.com/webp/gallery/11.jpg" alt="Bermuda 1"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/12.jpg" alt="Bermuda 2"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/13.jpg" alt="Bermuda 3"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/14.jpg" alt="Bermuda 4"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/15.jpg" alt="Bermuda 5"></div>
+            </div>
+        </section>
+
+        <section id="tenis">
+            <h2>Tênis</h2>
+            <div class="slider">
+                <div><img src="https://www.gstatic.com/webp/gallery/16.jpg" alt="Tênis 1"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/17.jpg" alt="Tênis 2"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/18.jpg" alt="Tênis 3"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/19.jpg" alt="Tênis 4"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/20.jpg" alt="Tênis 5"></div>
+            </div>
+        </section>
+
+        <section id="sapatos">
+            <h2>Sapatos</h2>
+            <div class="slider">
+                <div><img src="https://www.gstatic.com/webp/gallery/21.jpg" alt="Sapato 1"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/22.jpg" alt="Sapato 2"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/23.jpg" alt="Sapato 3"></div>
+                <div><img src="https://www.gstatic.com/webp/gallery/24.jpg" alt="Sap
+
+        
